@@ -29,9 +29,9 @@ scrollNavbar()
 
 
 /* let animatedM = () => {
-    let svg = document.querySelectorAll("g[opacity]")
+    let svg = document.querySelectorAll("g")
     svg.forEach(g => {
-        let randomOp = Math.round(Math.random()*40);
+        let randomOp = Math.round(Math.random());
         g.setAttribute("opacity", randomOp)
         g.classList.add("randoM")
     })
