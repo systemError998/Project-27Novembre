@@ -68,7 +68,7 @@ a {
 
 .hero_text {
     margin-left: 10%;
-    padding: 5rem;
+    padding: 2.5rem;
 }
 .hero h1 {
     font-family: 'Spectral', serif;
@@ -228,6 +228,19 @@ aside {
     height: 10rem;
     margin-right: 0;
 }
+
+    /* Classe per funzione random M */
+    .randoM {
+        animation: fadeIn 2s ease-in infinite alternate;
+    }
+    @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
 
 
 /* Media Query Smartphone  */
@@ -445,18 +458,7 @@ aside {
         margin-right: 0;
     }
     
-    /* Classe per funzione random M */
-    .randoM {
-        animation: fadeIn 1s ease-in infinite alternate;;
-    }
-    @keyframes fadeIn {
-        from {
-          opacity: 0;
-        }
-        to {
-          opacity: 1;
-        }
-      }
+
         
 }/*  FINE MEDIA QUERY MAX 767 */
 

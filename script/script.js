@@ -27,14 +27,19 @@ let scrollNavbar = () => {
 }
 scrollNavbar()
 
+//
+function randoM() {
+    let m = document.querySelectorAll('g[opacity]');
 
-/* let animatedM = () => {
-    let svg = document.querySelectorAll("g")
-    svg.forEach(g => {
-        let randomOp = Math.round(Math.random());
-        g.setAttribute("opacity", randomOp)
-        g.classList.add("randoM")
-    })
+    m.forEach(element => {
+        let randomOpacity = Math.floor(Math.random());
+        element.setAttribute('opacity', randomOpacity);
+        element.classList.add('randoM');
+    });
 }
-animatedM() */
+
+randoM();
+setInterval(mRandom, 2000); 
+
+
 
